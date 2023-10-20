@@ -8,6 +8,7 @@ An application for real-time American Sign Language classification
   python train.py --img 448 --batch 64 --epochs 500 --data data.yaml --weights yolov5s.pt --workers 8
 ```
 Modify data.yml to set training and validation image path
+
 The trained model will be saved to yolov5/runs/train/exp/weights/best.pt
 
 ## Validation
